@@ -1,13 +1,12 @@
 [project]
-name = "hello-world"
-description = "A simple hello world example using Boilermaker"
-default_lang = "rust"
-repository = "https://github.com/yeajustmars/boilermaker"
-subdir = "examples/hello-world"
+name = "hello-boilermaker"
+description = "Simple Hello World with Boilermaker"
 version = "0.1.0"
-authors = ["yeajustmars <yeajustmars@gmail.com>"]
-keywords = ["boilermaker", "example"]
-website = "https://boilermaker.dev/templates/hello-world"
+default_lang = "rust"
+repository = "https://github.com/yeajustmars/boil-hello-world"
+authors = ["yeajustmars"]
+keywords = ["boilermaker", "example", "hello-world"]
+website = "https://github.com/yeajustmars/boil-hello-world"
 license = "MIT"
 
 [variables]
