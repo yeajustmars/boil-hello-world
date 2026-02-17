@@ -1,0 +1,34 @@
+[source]
+name = "source_boil-hello-world"
+description = "Source for official Boilermake Hello World templates"
+backend = "sql::sqlite"
+
+[[templates]]
+repo = "https://github.com/yeajustmars/boil-hello-world"
+name = "hello-world-bash"
+lang = "bash"
+branch = "main"
+
+[[templates]]
+repo = "https://github.com/yeajustmars/boil-hello-world"
+name = "hello-world-clojure"
+lang = "clojure"
+branch = "main"
+
+[[templates]]
+repo = "https://github.com/yeajustmars/boil-hello-world"
+name = "hello-world-javascript"
+lang = "javascript"
+branch = "main"
+
+[[templates]]
+repo = "https://github.com/yeajustmars/boil-hello-world"
+name = "hello-world-python"
+lang = "python"
+branch = "main"
+
+[[templates]]
+repo = "https://github.com/yeajustmars/boil-hello-world"
+name = "hello-world-rust"
+lang = "rust"
+branch = "main"
