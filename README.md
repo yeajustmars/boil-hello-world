@@ -17,3 +17,11 @@ This is the most basic template that Boilermaker has to offer. It demonstrates t
 # Usage
 
 See individual templates for instructions on how to run that language.
+
+## TIP
+
+If you want to install all languages, you can run the following BASH code:
+
+```bash
+for lang in $(ls -d */); do boil install https://github.com/yeajustmars/boil-hello-world --lang=${lang%/} done
+```
