@@ -22,9 +22,9 @@ boil new boil-hello-world -Od /tmp -n boil-clj
 
 cd /tmp/boil-clj
 
-clj -M src/hello_world.clj
+clojure -M -m hello-world
 
-# Alternatively, if you have Babashka installed:
-# bb src/hello_world.clj
+# Or, alternatively, if you have Babashka installed:
+# bb -cp src -m hello-world
 ```
 
