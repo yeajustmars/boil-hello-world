@@ -1,13 +1,26 @@
-# Usage
+# Template
+
+boil-hello-world
+
+Boilermaker Hello World in BASH.
+
+# Install
 
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
 ```bash
+boil install https://github.com/yeajustmars/boil-hello-world --lang=bash
+```
+
+
+# Usage
+
+```bash
 boil install https://github.com/yeajustmars/boil-hello-world -n hello-world-bash
 
-boil new hello-world-rs -Od /tmp
+boil new hello-world-rs -Od /tmp -n boil-bash
 
-cd /tmp/hello-world-rs
+cd /tmp/boil-bash
 
 bash src/hello-world.sh
 ```

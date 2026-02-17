@@ -1,4 +1,10 @@
-# Insatll
+# Template
+
+boil-hello-world
+
+Boilermaker Hello World in Rust.
+
+# Install
 
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
@@ -12,9 +18,9 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=rust
 ```bash
 boil install https://github.com/yeajustmars/boil-hello-world -n hello-world-rs
 
-boil new hello-world-rs -Od /tmp
+boil new hello-world-rs -Od /tmp -n boil-rs
 
-cd /tmp/hello-world-rs
+cd /tmp/boil-rs
 
 cargo run
 ```
