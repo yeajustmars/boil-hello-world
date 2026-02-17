@@ -16,7 +16,7 @@ This is the most basic template that Boilermaker has to offer. It demonstrates t
 
 # Usage
 
-See individual templates for instructions on how to run that language.
+See individual templates for instructions on how to install and run that language.
 
 ## TIP
 
