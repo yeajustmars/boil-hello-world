@@ -7,5 +7,5 @@ print-welcome-message() {
   echo -e "${interpolated_message}"
 }
 
-echo -e "Hello boiled Bash!"
+echo -e "Hello boiled BASH!"
 print-welcome-message
