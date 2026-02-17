@@ -3,12 +3,12 @@
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
 ```bash
-boil install https://github.com/yeajustmars/boil-hello-world -n hello-world-rs
+boil install https://github.com/yeajustmars/boil-hello-world -n hello-world-bash
 
 boil new hello-world-rs -Od /tmp
 
 cd /tmp/hello-world-rs
 
-cargo run
+bash src/hello-world.sh
 ```
 
