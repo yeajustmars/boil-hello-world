@@ -18,7 +18,7 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=bash
 ```bash
 # boil install https://github.com/yeajustmars/boil-hello-world --lang=bash
 
-boil new boil-hello-world -Od /tmp -n boil-bash
+boil new boil-hello-world -l bash -Od /tmp -n boil-bash
 
 cd /tmp/boil-bash
 

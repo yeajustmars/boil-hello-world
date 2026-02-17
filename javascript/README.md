@@ -18,7 +18,7 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=javascript
 ```bash
 # boil install https://github.com/yeajustmars/boil-hello-world --lang=javascript
 
-boil new boil-hello-world -Od /tmp -n boil-js
+boil new boil-hello-world -l javascript -Od /tmp -n boil-js
 
 cd /tmp/boil-js
 

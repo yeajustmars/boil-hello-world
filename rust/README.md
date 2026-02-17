@@ -18,7 +18,7 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=rust
 ```bash
 # boil install https://github.com/yeajustmars/boil-hello-world --lang=rust
 
-boil new boil-hello-world -Od /tmp -n boil-rs
+boil new boil-hello-world -l rust -Od /tmp -n boil-rs
 
 cd /tmp/boil-rs
 

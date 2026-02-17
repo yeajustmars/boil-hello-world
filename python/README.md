@@ -18,7 +18,7 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=python
 ```bash
 # boil install https://github.com/yeajustmars/boil-hello-world --lang=python
 
-boil new boil-hello-world -Od /tmp -n boil-py
+boil new boil-hello-world -l python -Od /tmp -n boil-py
 
 cd /tmp/boil-py
 

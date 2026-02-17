@@ -18,7 +18,7 @@ boil install https://github.com/yeajustmars/boil-hello-world --lang=clojure
 ```bash
 # boil install https://github.com/yeajustmars/boil-hello-world --lang=clojure
 
-boil new boil-hello-world -Od /tmp -n boil-clj
+boil new boil-hello-world -l clojure -Od /tmp -n boil-clj
 
 cd /tmp/boil-clj
 
