@@ -1,8 +1,8 @@
 [project]
-name = "hello-boilermaker"
+name = "boil-hello-world"
 description = "Simple Hello World with Boilermaker"
 version = "0.1.0"
-default_lang = "rust"
+default_lang = "bash"
 repository = "https://github.com/yeajustmars/boil-hello-world"
 authors = ["yeajustmars"]
 keywords = ["boilermaker", "example", "hello-world"]
