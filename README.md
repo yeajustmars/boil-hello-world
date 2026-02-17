@@ -22,6 +22,8 @@ See individual templates for instructions on how to install and run that languag
 
 If you want to install all languages, you can run the following BASH code:
 
+> _NOTE_: Make sure to `cd /path/to/this/repo` before running the code below.
+
 ```bash
 for lang in $(ls -d */); do boil install https://github.com/yeajustmars/boil-hello-world --lang=${lang%/} done
 ```
