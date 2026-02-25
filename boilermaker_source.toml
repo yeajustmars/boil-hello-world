@@ -5,30 +5,30 @@ backend = "sql::sqlite"
 
 [[templates]]
 repo = "https://github.com/yeajustmars/boil-hello-world"
-name = "hello-world-bash"
+name = "hello-world"
 lang = "bash"
 branch = "main"
 
 [[templates]]
 repo = "https://github.com/yeajustmars/boil-hello-world"
-name = "hello-world-clojure"
+name = "hello-world"
 lang = "clojure"
 branch = "main"
 
 [[templates]]
 repo = "https://github.com/yeajustmars/boil-hello-world"
-name = "hello-world-javascript"
+name = "hello-world"
 lang = "javascript"
 branch = "main"
 
 [[templates]]
 repo = "https://github.com/yeajustmars/boil-hello-world"
-name = "hello-world-python"
+name = "hello-world"
 lang = "python"
 branch = "main"
 
 [[templates]]
 repo = "https://github.com/yeajustmars/boil-hello-world"
-name = "hello-world-rust"
+name = "hello-world"
 lang = "rust"
 branch = "main"
