@@ -16,9 +16,11 @@ This is the most basic template that Boilermaker has to offer. It demonstrates t
 
 # Usage
 
+## Templates
+
 See individual templates for instructions on how to install and run that language.
 
-## TIP
+### TIP
 
 If you want to install all languages, you can run the following BASH code:
 
@@ -26,4 +28,16 @@ If you want to install all languages, you can run the following BASH code:
 
 ```bash
 for lang in $(ls -d */); do boil install https://github.com/yeajustmars/boil-hello-world --lang=${lang%/}; done
+```
+
+## Source
+
+If you want to add the source to your local cache, you can run the following:
+
+```bash
+boil sources add https://raw.githubusercontent.com/yeajustmars/boil-hello-world/refs/heads/main/boilermaker_source.toml
+
+# boil sources list
+# boil sources templates list <SOURCE_ID>
+# boil sources templates install <TEMPLATE_ID_OR_NAME>
 ```
