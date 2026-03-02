@@ -9,16 +9,14 @@ Boilermaker Hello World in Javascript.
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
 ```bash
-boil install https://github.com/yeajustmars/boil-hello-world --lang=javascript
+boil install https://github.com/yeajustmars/boil-hello-world --lang=javascript --rename=hello-world
 ```
 
 
 # Usage
 
 ```bash
-# boil install https://github.com/yeajustmars/boil-hello-world --lang=javascript
-
-boil new boil-hello-world -l javascript -Od /tmp -n boil-js
+boil new hello-world -l javascript -Od /tmp -n boil-js
 
 cd /tmp/boil-js
 

@@ -9,16 +9,14 @@ Boilermaker Hello World in Clojure.
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
 ```bash
-boil install https://github.com/yeajustmars/boil-hello-world --lang=clojure
+boil install https://github.com/yeajustmars/boil-hello-world --lang=clojure --rename=hello-world
 ```
 
 
 # Usage
 
 ```bash
-# boil install https://github.com/yeajustmars/boil-hello-world --lang=clojure
-
-boil new boil-hello-world -l clojure -Od /tmp -n boil-clj
+boil new hello-world -l clojure -Od /tmp -n boil-clj
 
 cd /tmp/boil-clj
 

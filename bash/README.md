@@ -9,16 +9,14 @@ Boilermaker Hello World in BASH.
 > If not done already, [install Boilermaker](https://boilermaker.dev/docs/install).
 
 ```bash
-boil install https://github.com/yeajustmars/boil-hello-world --lang=bash
+boil install https://github.com/yeajustmars/boil-hello-world --lang=bash --rename=hello-world
 ```
 
 
 # Usage
 
 ```bash
-# boil install https://github.com/yeajustmars/boil-hello-world --lang=bash
-
-boil new boil-hello-world -l bash -Od /tmp -n boil-bash
+boil new hello-world -l bash -Od /tmp -n boil-bash
 
 cd /tmp/boil-bash
 
